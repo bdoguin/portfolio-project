@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header>
+          <div class="col-xs-3 col">
+            <img class="img-responsive title-logo" src="images/udacity-logo.png" alt="Udacity Logo">
+          </div>
+          <div class="col-xs-9 text-right text-uppercase">
+            <h1 class="text-300 title-biggest">Brent O'Guin</h1>
+            <h4>Full Stack Master</h4>
+          </div>
+        </header>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class = "img-responsive" src="images/binary-1280.jpg" alt="Binary and the earth">
+          <!-- Image Source: https://pixabay.com/en/binary-code-globe-africa-asia-1695475/ -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <!-- Begin Featured Work Examples -->
+      <div class="row text-center">
+        <!-- Begin Featured Work 1 -->
+        <div class="col-md-4 work-box">
+          <img class="img-responsive center-block" src="images/cup-640.jpg" data-toggle="modal" data-target="#project1" alt="Image of golden trophy">
+          <!-- Image Source: https://pixabay.com/en/cup-winner-profit-award-trophy-1010909/ -->
+          <h3 class="text-uppercase">Swiss Tournament</h3>
+          <a href="https://github.com/bdoguin/full-stack-nanodegree-vm">GitHub Link</a>
+        </div>
+        <!-- Begin Featured Work 2 -->
+        <div class="col-md-4 work-box">
+          <img class="img-responsive center-block" src="images/sunflower-640.jpg" data-toggle="modal" data-target="#project2" alt="Image of sunflower">
+          <!-- Image Source: https://pixabay.com/en/sunflower-flower-yellow-orange-147075/ -->
+          <h3 class="text-uppercase">Sunflower</h3>
+          <a href="https://github.com/udacity/Sunflower/">GitHub Link</a>
+        </div>
+        <!-- Begin Featured Work 3 -->
+        <div class="col-md-4 work-box">
+          <img class="img-responsive center-block" src="images/sun-640.jpg" data-toggle="modal" data-target="#project3" alt="Sunshine through clouds">
+          <!-- Image Source: https://pixabay.com/en/cloud-sky-yellow-radius-sunshine-143152/ -->
+          <h3 class="text-uppercase">Bokeh</h3>
+          <a href="https://github.com/udacity/Bokeh/">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+    <!-- Modals -->
+    <!-- Begin Modal 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Swiss Game Tournament</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This project uses a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament. This project is part of the Udacity Full Stack Nanodegree Program. It is designed to show competency in creating and using databases through the use of database schemas and how to manipulate data inside of the database.</p>
+                    <a href="https://github.com/bdoguin/full-stack-nanodegree-vm">GitHub Link</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Begin Modal 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sunflower</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is a placeholder project until more projects are completed</p>
+                    <a href="https://github.com/udacity/Sunflower/">GitHub Link</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Begin Modal 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabe3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Bokeh</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is a placeholder project until more projects are completed</p>
+                    <a href="https://github.com/udacity/Bokeh/">GitHub Link</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

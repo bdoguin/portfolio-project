@@ -1,0 +1,35 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-300 {
+    font-weight: 300;
+}
+
+@media screen and (min-width:700px) {
+    .title-biggest {
+        font-size: 60px;
+    }
+}
+
+.title-logo {
+    max-height: 100px;
+    margin-top: 30px;
+}
+
+.work-box {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+}
